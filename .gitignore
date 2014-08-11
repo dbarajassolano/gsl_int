@@ -1,0 +1,27 @@
+# Emacs-related files
+\#*#
+.#*
+*~
+
+# Autotools
+/**/Makefile
+/**/Makefile.in
+/aclocal.m4
+/autom4te.cache/
+/config.*
+/configure
+/depcomp
+/install-sh
+/libtool
+/ltmain.sh
+/missing
+/stamp-h?
+.deps/
+.dirstamp
+.libs/
+*.o
+*.a
+*~
+
+# Logs
+*.log
