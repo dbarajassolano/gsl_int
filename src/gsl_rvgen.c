@@ -47,8 +47,8 @@ int gsl_rvgen_normal(unsigned int M, double *rv, void *_context){
 
 /* Function for obtaining a random number from /dev/urandom for
    seeding a pseudo-random number generator.
-   Adapted from original code by Robert G. Brown <rgb@phy.duke.edu>
-   http://sourceware.org/ml/gsl-discuss/2005-q1/msg00092.html */
+   Adapted from code from the Dieharder project
+   http://www.phy.duke.edu/~rgb/General/dieharder.php */
 unsigned long int random_seed(int verbose_flag){
 	
 	unsigned int seed;
